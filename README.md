@@ -6,7 +6,7 @@
 1. Clone the repository: `git clone https://github.com/ruvn-1fgas/cpp_project_creator.git`
 2. Install dependencies: `npm install`
 3. Run the build package task: `vsce package`
-4. Install the extension: `code --install-extension cpp-project-creator-0.0.1.vsix` or use Ctrl+Shift+P and select `Extensions: Install from VSIX...`
+4. Install the extension: `code --install-extension cpp-project-creator-0.9.0.vsix` or use Ctrl+Shift+P and select `Extensions: Install from VSIX...`
 
 ## Usage
 
