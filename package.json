@@ -1,0 +1,56 @@
+{
+    "name": "cpp-project-creator",
+    "displayName": "C++ Project Creator",
+    "description": "Easily create C++ project for GCC",
+    "version": "0.9.0",
+    "publisher": "ruvn-1fgas",
+    "icon": "logo.png",
+    "repository": {
+        "url": "https://github.com/ruvn-1fgas/cpp-project-creator"
+    },
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:cpp-project-creator.createProject",
+        "workspaceContains:.vscode/.dontdelete"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "cpp-project-creator.createProject",
+                "title": "C++ Project Creator: Create new C++ project"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "workbench.action.tasks.test",
+                "key": "f7"
+            },
+            {
+                "command": "workbench.action.tasks.build",
+                "key": "ctrl+f7"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.31",
+        "@types/node-fetch": "^2.5.7",
+        "@types/vscode": "^1.43.0",
+        "tslint": "^6.1.2",
+        "typescript": "^3.9.10"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    }
+}

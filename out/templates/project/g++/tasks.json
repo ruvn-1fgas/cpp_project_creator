@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ project",
+            "type": "shell",
+            "command": "./build.bat",
+            "group": "build"
+        },
+        {
+            "label": "Build and run C++ project",
+            "type": "shell",
+            "command": "./build.bat ; ./bin/main.exe",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

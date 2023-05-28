@@ -1,0 +1,25 @@
+{
+    "version": "2",
+    "directories": [
+        ".vscode",
+        "bin",
+        "include",
+        "lib",
+        "src"
+    ],
+    "templates": {
+        "[G++] Linux": {
+            "files": {
+                "g++/tasks.json": ".vscode/tasks.json",
+                "g++/launch.json": ".vscode/launch.json",
+                "g++/settings.json": ".vscode/settings.json",
+                "g++/c_cpp_properties.json": ".vscode/c_cpp_properties.json",
+                "g++/build.bat": "build.bat",
+                "g++/main.cpp": "src/main.cpp"
+            },
+            "openFiles": [
+                "src/main.cpp"
+            ]
+        }
+    }
+}
