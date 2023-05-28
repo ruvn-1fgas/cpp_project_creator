@@ -35,3 +35,11 @@ If you encounter any issues while using this extension, please follow these step
 3. Provide a clear and concise title and description of the issue, including any error messages or steps to reproduce the issue.
 4. Add any relevant labels or assignees to the issue.
 5. Submit the issue and wait for a response from the project maintainers.
+
+If you have any issues with GDB, make sure that you have completed the following steps:
+
+1. Win+R -> intl.cpl
+2. Administrative tab
+3. Change system locale
+4. Enable Beta: Use Unicode UTF-8 for worldwide language support
+5. Restart PC
